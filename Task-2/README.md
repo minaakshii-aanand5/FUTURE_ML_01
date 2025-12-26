@@ -1,129 +1,92 @@
-📊 Customer Churn Prediction System 📌 Project Overview
+# 🏦 Customer Churn Prediction System
 
-Customer churn is a critical challenge for banking and telecom businesses, as losing customers directly impacts revenue and long-term growth. This project focuses on analyzing customer behavior and building a machine learning–based churn prediction system to identify customers who are most likely to leave a service.
+This project predicts which customers are likely to leave a service (customer churn) using machine learning, and visualizes insights through a Power BI dashboard.
 
-The solution combines data analysis, visualization, and predictive modeling to deliver actionable business insights and support data-driven decision-making.
+---
 
-🎯 Objectives
+## 📂 Project Structure
 
-Analyze historical customer data to understand churn patterns
+Task-2/
+ ├── dashboard/        → Power BI dashboard (.pbix) & screenshots  
+ ├── data/             → Raw & cleaned datasets  
+ ├── notebook/         → Model building notebook / Colab file  
+ ├── reports/          → PDF analysis / summary report  
+ └── README.md  
 
-Identify key factors driving customer churn
+---
 
-Build a predictive model to estimate churn probability
+## 🔗 Google Colab Notebook
+📎 https://colab.research.google.com/drive/1sPmvnoAZiJakHMZhTS7P5g4_c5DbfptC?usp=sharing
 
-Visualize insights using an interactive dashboard
+---
 
-Translate analytical findings into business recommendations
+## 🎯 Objective
+To build a predictive model that identifies customers at risk of churn and analyze the key factors influencing churn.
 
-📂 Dataset
+---
 
-Source: Bank Customer Churn Dataset (Kaggle)
+## 🛠 Tools & Technologies
+- Python — Pandas, NumPy, Scikit-learn, Matplotlib
+- Google Colab / Jupyter Notebook
+- Power BI
 
-Size: 10,000 customer records
+---
 
-Target Variable: Exited (1 = Churned, 0 = Retained)
+## 📊 Key Results
+- **Total Customers:** 10,000  
+- **Churned Customers:** ~2,037  
+- **Churn Rate:** ~20%  
 
-Key Features:
+---
 
-Demographics: Age, Gender, Geography
+## 🔍 Key Churn Drivers
+- Age  
+- Number of products  
+- Credit score  
+- Balance & income  
+- Customer activity status  
+- Geography  
 
-Financial: Credit Score, Balance, Estimated Salary
+Inactive and single-product customers show higher churn risk.
 
-Behavioral: Number of Products, Tenure, Activity Status, Credit Card Ownership
+---
 
-🔍 Exploratory Data Analysis (EDA)
+## 📊 Dashboard
+The Power BI dashboard includes:
+- Churn Probability  
+- Churn by Age Group  
+- Churn by Country  
+- Churn by Activity Status  
+- Top Churn Drivers  
 
-The EDA phase focused on understanding churn distribution and customer behavior across multiple dimensions:
+Dashboard file is available in the **dashboard folder**.
 
-Overall churn rate (~20%)
+---
 
-Churn by age group
+## 📁 Files Description
+### `data/`
+Raw and cleaned datasets.
 
-Churn by geography (France, Germany, Spain)
+### `notebook/`
+Model-building notebook.
 
-Churn by activity status
+### `dashboard/`
+Power BI `.pbix` file and screenshots.
 
-Churn vs account balance
+### `reports/`
+Churn analysis PDF.
 
-📊 Dashboard & Visualization
+---
 
-An interactive Power BI dashboard was developed to explore churn trends dynamically using slicers and filters. The dashboard highlights:
+## ▶️ How to Run
+1. Install dependencies  
+2. Open the notebook / Colab file  
+3. Run preprocessing & model cells  
+4. Explore the dashboard insights  
 
-High-risk customer segments
+---
 
-Regional churn variations
+## 👩‍💻 Author
+MINAAKSHII AANAND
 
-Behavioral patterns linked to churn
 
-Financial risk from high-balance customers
-
-🤖 Machine Learning Model
-
-A classification-based approach was used to predict customer churn.
-
-Models & Techniques:
-
-Logistic Regression
-
-Random Forest Classifier
-
-Feature scaling and encoding
-
-Train-test split for validation
-
-Evaluation Metrics:
-
-Accuracy
-
-Precision
-
-Recall
-
-Confusion Matrix
-
-Classification Report
-
-Feature Importance Insights:
-
-High impact: Age, Number of Products, Credit Score, Balance, Tenure
-
-Lower impact: Gender, Credit Card Ownership, Geography
-
-📌 Key Business Insights
-
-Approximately 1 in 5 customers churn, indicating a significant retention challenge
-
-Churn increases sharply after age 40
-
-Inactive customers show much higher churn rates
-
-High-balance customers leaving pose direct financial risk
-
-Behavioral and financial variables dominate churn prediction over demographics
-
-🛠️ Tools & Technologies
-
-Programming: Python (Pandas, NumPy, Scikit-learn)
-
-Visualization: Power BI, Matplotlib
-
-Environment: Google Colab
-
-Data Handling: Google Sheets
-
-Documentation: Google Docs, GitHub
-
-📁 Repository Structure ├── data/ │ └── cleaned_dataset.csv ├── notebooks/ │ └── Project_2.ipynb ├── dashboard/ │ └── Project - 2 _ Dashboard.pbix ├── reports/ │ └── Project_2_Churn_Prediction.pdf └── README.md
-
-🚀 Outcomes
-
-Built an end-to-end churn analytics and prediction pipeline
-
-Strengthened skills in EDA, feature engineering, ML modeling, and business storytelling
-
-Demonstrated how analytics and AI can directly support customer retention strategy
-
-📬 Author
-
-Minakshi Aanand BS in Applied Artificial Intelligence & Data Science Aspiring Data Analyst | Machine Learning Enthusiast
