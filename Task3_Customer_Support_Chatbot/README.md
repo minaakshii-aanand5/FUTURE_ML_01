@@ -35,5 +35,12 @@ Screenshots are available inside the **screenshots folder**.
 - Testing & debugging  
 - Applying AI in customer support  
 
-This project was completed as **Final Task 3 — Machine Learning Internship (Future Interns)**.
+## 👩‍💻 Author
+
+**MINAAKSHII AANAND**
+
+Machine Learning Intern — Future Interns  
+Task 3: AI Powered Customer Support Chatbot  
+
+
 
